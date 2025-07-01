@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/INTERN_FRONTEND" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/INTERN_FRONTEND/" : "",
+  basePath: process.env.NODE_ENV === "production" ? "/intern" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/intern/" : "",
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
