@@ -3,7 +3,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 
 export default function HomePage() {
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8 px-4">
       <header className="text-center mb-12">
         <h1 className="font-headline text-5xl font-bold tracking-tight mb-4">
           歡迎來到 React 實習生道館！
